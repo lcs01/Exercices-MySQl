@@ -1,0 +1,37 @@
+
+
+    Afficher tous les jeux sans afficher l'id
+SELECT `nom`, `possesseur`, `console`, `prix`, `nbre_joueurs_max`, `commentaires` FROM `jeux_video` 
+    Afficher les jeux ordonnés par prix descendant
+    
+    SELECT * FROM `jeux_video` ORDER BY prix DESC 
+    
+    Afficher tous les jeux de Patrick
+
+SELECT * FROM jeux_video WHERE possesseur = 'Patrick' ;
+
+    Répondre à la question : "Quel est la moyenne du nombre de joueur par jeu ?"
+
+SELECT `id`, `nbre_joueurs_max` FROM `jeux_video` ORDER BY `id` DESC 
+
+il y a 50 jeux. ;
+
+
+    Répondre à la question : "Quel est le ou les jeu(x) le plus cher ?"
+
+    Afficher les jeux qui sont sur "Xbox"
+
+    Affcher le nombre de jeux qui sont sur la "Xbox"
+
+    Afficher le nombre de jeux par console
+
+    Afficher le nombre de jeux par personne
+
+    Afficher les jeux qui contiennent la lettre "x" dans leur nom
+
+    Afficher les jeux qui commence par "fi"
+
+    Repondre à la question : "Quels sont les personnes qui possèdent les jeux qui commence par "fi" ?"
+
+    Repondre à la question : "Combien Corentin a t il de console ?"
+
