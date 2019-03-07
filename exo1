@@ -16,10 +16,17 @@ SELECT `id`, `nbre_joueurs_max` FROM `jeux_video` ORDER BY `id` DESC
 
 il y a 50 jeux. ;
 
+SELECT SUM(nbre_joueurs_max) AS totalmoyenne FROM `jeux_video` ;
 
     Répondre à la question : "Quel est le ou les jeu(x) le plus cher ?"
 
+SELECT `nom` ,prix FROM `jeux_video` ORDER BY prix DESC 
+
+Dead or Alive Xtreme Beach Volley Ball 	60
+
     Afficher les jeux qui sont sur "Xbox"
+
+SELECT * FROM jeux_video WHERE console = 'Xbox' ;
 
     Affcher le nombre de jeux qui sont sur la "Xbox"
 
