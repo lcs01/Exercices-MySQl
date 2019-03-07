@@ -29,10 +29,16 @@ Dead or Alive Xtreme Beach Volley Ball 	60
 SELECT * FROM jeux_video WHERE console = 'Xbox' ;
 
     Affcher le nombre de jeux qui sont sur la "Xbox"
+    
+SELECT id,  nom ,console FROM jeux_video WHERE console = 'Xbox'  ;
 
     Afficher le nombre de jeux par console
 
+SELECT id,  nom ,console FROM jeux_video ORDER BY console ;
+
     Afficher le nombre de jeux par personne
+
+SELECT id,  nom , possesseur FROM jeux_video ORDER BY possesseur ;
 
     Afficher les jeux qui contiennent la lettre "x" dans leur nom
 
